@@ -1,0 +1,116 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Reset*/
+
+
+/*Encabezado*/
+header{
+    background-color: #2D3047;
+    position: sticky;
+    top: 0px;
+
+}
+.menu{
+    text-align: center;   
+}
+/*Encabezado*/
+
+
+/*Navegador*/
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+.boton{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    padding-top: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+}
+/*Navegador*/
+
+
+/*Cuerpo*/
+body{
+    background-color: #FFFFFF;
+}
+
+
+main{
+    background-color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*Cuerpo*/
+
+
+/*Pie de Página*/
+footer{
+    background-color: #C1C1C1;
+}
+.pie{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.botonPie{
+    color:#FFFFFF;
+    padding: 5px;
+
+}
+.autoria{
+    text-align: center;
+    font-size: x-small;
+    padding-bottom: 10px;
+}
+/*Pie de Página*/
+
+
+/*Titulos*/
+.titulo{
+    color: #ffc508;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 30px 30px;
+}
+.subtitulo{
+    color: #007991;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+/*Titulos*/
+
+/*Formulario*/
+form{
+    display: grid;
+    padding: 20px;
+    margin-bottom: 150px;
+}
+input{
+    padding: 10px;
+}
+label{
+    padding: 5px;
+}
