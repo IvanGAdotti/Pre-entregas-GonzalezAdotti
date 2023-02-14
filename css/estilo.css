@@ -21,10 +21,6 @@ html{
 
 
 /*Navegador*/
-li{
-    list-style-type: none;
-    display: inline-block;
-}
 .boton{
     color: #FFFFFF;
     text-decoration: none;
@@ -48,12 +44,29 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
 body{
     height: 100vh;
 }
 
-
+.menu{
+    background-color: rgb(40, 40, 40);
+    border: none;
+    transition: all 0.5s;
+    font-family:'Roboto', sans-serif ;
+    font-size: 2.5rem;
+}
+.menu:hover{
+    background-color: #ffaf04;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
 /*Cuerpo*/
 
 
@@ -61,6 +74,10 @@ body{
 footer{
     background-color: #C1C1C1;
     display: block;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
 }
 .pie{
     text-align: center;
@@ -89,7 +106,7 @@ footer{
 
 /*Titulos*/
 .titulo{
-    color: #ffc508;
+    color: #fcb824;
     font-family: 'Monoton', cursive;
     margin: 0;
     font-size: 3rem;
