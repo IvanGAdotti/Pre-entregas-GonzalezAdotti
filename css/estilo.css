@@ -55,6 +55,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -121,7 +122,7 @@ main img{
 
 .subtitulo {
     color: #007991;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Monoton', cursive;
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -151,4 +152,10 @@ label {
 .imagen{
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 460px){
+    .titulo{
+        font-size: 2rem;
+    }
 }
