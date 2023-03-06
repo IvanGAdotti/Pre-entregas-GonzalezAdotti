@@ -1,0 +1,22 @@
+.titulo {
+    color: $color_3;
+    font-family: $font-family_3;
+    margin: 0;
+    font-size: 3rem;
+    word-spacing: 1.5rem;
+}
+
+.subtitulo {
+    color: $color_4;
+    font-family: $font-family_3;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 2.2rem;
+    word-spacing: 1.5rem;
+}
+
+p {
+    text-align: justify;
+    font-weight: 900;
+    font-family: $font-family_1;
+}
