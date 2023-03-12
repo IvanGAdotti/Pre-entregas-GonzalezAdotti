@@ -2,9 +2,7 @@
 	font-family: $font-family_1;
 }
 .pie {
-	font-family: $font-family_1;
-	font-weight: bolder;
-	font-size: 1.1rem;
+	@include texto;
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
