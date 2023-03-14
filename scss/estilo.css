@@ -100,18 +100,25 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-form {
-  display: grid;
-  padding: 20px;
-  margin-bottom: 150px;
+.formulario {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin-top: 60px;
+}
+.formulario input {
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.formulario .consulta {
+  padding: 50px;
 }
 
-input {
+.send {
+  list-style: none;
   padding: 10px;
-}
-
-label {
-  padding: 5px;
 }
 
 .imagen {
